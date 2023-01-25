@@ -1,0 +1,68 @@
+body {
+    background: burlywood;
+}
+h1 {
+    background: bisque;
+    border-radius: 15px;
+    padding: 1px 10px;
+
+
+}
+
+h2 {
+    background: bisque;
+    border-radius: 15px;
+    padding: 1px 10px;
+    font:  inherit;
+}
+
+#name1 {
+    background: bisque;
+    border-radius: 15px;
+    padding: 1px 10px;
+}
+
+#name1:hover {
+    background: chocolate;
+}
+
+#name2 {
+    background: bisque;
+    border-radius: 15px;
+    padding: 1px 10px;
+}
+
+#name2:hover {
+    background: lightgray;
+}
+
+#password {
+    background: bisque;
+    border-radius: 15px;
+    padding: 1px 10px;
+}
+
+#password:hover {
+    background: lightgray;
+}
+
+#submit {
+    background: bisque;
+    border: None;
+    border-radius: 15px;
+    font: inherit;
+}
+
+#submit:hover {
+    background: chocolate;
+}
+
+#name3 {
+    background: bisque;
+    border-radius: 15px;
+    padding: 1px 10px;
+}
+
+#name3:hover {
+    background: chocolate;
+}

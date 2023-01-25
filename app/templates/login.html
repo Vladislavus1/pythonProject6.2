@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block content %}
+<form action="{{ url_for('login') }}" method="POST">
+
+    <label for="name2">1.Your nickname:</label>
+    <input type="text" id="name2" name="name" placeholder="Enter your name...">
+
+    <label for="password">1.Your password:</label>
+    <input type="text" id="password" name="password" placeholder="Enter your password...">
+
+    <input type="submit" value="Submit" id="submit">
+
+</form>
+{% endblock %}
+
+<!--<form action="{{ url_for('add_test') }}" method="POST">-->
+<!--    <h3>Add test</h3>-->
+<!--    <select name="topic">-->
+<!--        {% for topic in all_topics %}-->
+<!--        <option>{{ topic }}</option>-->
+<!--        {% endfor %}-->
+<!--    </select>-->
+<!--    <br>-->
+
+<!--    <label for="question">Question</label>-->
+<!--    <input type="text" id="question" name="question"><br>-->
+
+<!--    <label for="ans1">First answer</label>-->
+<!--    <input type="text" id="ans1" name="ans1"><br>-->
+
+<!--    <label for="ans2">Second answer</label>-->
+<!--    <input type="text" id="ans2" name="ans2"><br>-->
+
+<!--    <label for="correct">Correct answer</label>-->
+<!--    <input type="text" id="correct" name="correct"><br>-->
+
+<!--    <input type="submit" value="ADD">-->
+
+<!--</form>-->
+
+
+<!---->
+<!--    <label for="topic">Enter name of new topic</label>-->
+<!--    <input type="text" id="topic" name="topic" placeholder="Enter here">-->
+<!--    <input type="submit" value="ADD">-->
+<!---->

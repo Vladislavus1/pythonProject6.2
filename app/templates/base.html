@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Index</title>
+</head>
+<body>
+<h1>Welcome to  Photogram</h1>
+<h2>The place where you can be whatever you want</h2><br>
+
+<li><a class="link" href="{{ url_for('login') }}" id="name1">Login</a></li><br>
+<li><a class="link" href="{{ url_for('list') }}" id="name3">List of users</a></li><br>
+
+{% block content %}
+{% endblock %}
+</body>
+</html>
